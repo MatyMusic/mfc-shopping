@@ -72,7 +72,7 @@ const ProductCard = ({ product }) => {
     } else {
       dispatch(addCartItem(id, 1));
       toast({
-        description: "פריט נוסף",
+        description: "  פריט נוסף בהצלחה",
         status: "success",
         isClosable: true,
       });
